@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "MyAwesomeRealmApp",
+    "slug": "MyAwesomeRealmApp",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.younes31.MyAwesomeRealmApp"
+    },
+    "web": {
+      "build": {
+        "babel": {
+          "include": ["realm", "@realm/react"]
+        }
+      }
+    }
+  }
+}
