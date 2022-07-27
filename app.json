@@ -8,6 +8,13 @@
     ],
     "ios": {
       "bundleIdentifier": "com.younes31.MyAwesomeRealmApp"
+    },
+    "web": {
+      "build": {
+        "babel": {
+          "include": ["realm", "@realm/react"]
+        }
+      }
     }
   }
 }
